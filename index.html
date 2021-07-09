@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let vatly = parseFloat(prompt("Nhập vật lý"));
+    let hoa = parseFloat(prompt("Nhập hóa"));
+    let sinh = parseFloat(prompt("Nhập sinh"));
+
+    function tbDiem(vatly,hoa,sinh){
+        let tbd = (vatly+hoa+sinh)/3;
+        return tbd;
+    }
+
+    alert(tbDiem(vatly,hoa,sinh));
+
+</script>
+</body>
+</html>
